@@ -1,0 +1,35 @@
+{
+	"ordered": [{
+		"Transfer Id" : {
+            "fieldRequired" : true
+        }
+	}, {
+		"Transfer Type" : {
+            "fieldRequired" : true,
+            "defaultValue"  : "test",
+            "valueList"     : ["new","supplement","test","replacement","version"]
+
+        }
+	},{
+		"Submission Agreement": {
+			"fieldRequired" : true
+			
+		}
+	},{
+		"Submission Agreement Type": {
+			"fieldRequired" : true,
+			"defaultValue"  : "Agreement",
+            "valueList"     : ["Agreement","Deposit","Gift"]
+		}
+	},
+	{
+		"Content Description": {
+			"fieldRequired" : false
+		}
+	},
+	{
+		"Condition Description": {
+			"fieldRequired" : false
+		}
+	}]
+}
